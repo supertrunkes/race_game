@@ -21,6 +21,24 @@
   <title></title>
 </head>
 <body>
+  <!-- modal for winner annoncement and play again promopt -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="myModal">Game Over!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+      </div>
+      <button class="btn btn-danger"  onClick="window.location.reload()">Play agian?</button>
+    </div>
+  </div>
+</div>
+<!-- heading  -->
   <h1>Batman press Z to move.</h1>
   <h1>Pikachu press M to move.</h1>
 
@@ -29,16 +47,19 @@
     <div class="bg-img">
     <img src="" class="background-image">
     </div>
+    <!-- batman/player_1 -->
     <div class="player_1">
       <img  src="imgs/batman_run.gif">
     </div>
+    <!-- Pikachu/player_2 -->
     <div class="player_2">
       <img src="imgs/pikachu_run.gif">
     </div>
+    <!--flag turtle/end point  -->
     <div class="flag_waver">
       <img src="imgs/flag.gif">
     </div>
   </div>
-  <button class="btn btn-danger"  onClick="window.location.reload()" >Play agian?</button>
+
 </body>
 </html>

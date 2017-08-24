@@ -2,17 +2,12 @@ body{
 text-align: center;
 align-items: center;
 background: lightblue;
-
 }
 .container{
  position: fixed;
  width: 591px;
  height: 334px;
  border: 1px solid black;
-
-
-
-
 }
 .player_1{
   z-index: 2;
@@ -20,10 +15,6 @@ background: lightblue;
   width: 150px;
   align-content: center;
   margin-top: 30px;
-
-
-
-
 }
 .player_2{
   width: 150px;
@@ -31,15 +22,22 @@ background: lightblue;
   position: absolute;
   align-content: center;
   margin-top: 30px;
+}
 
-
+.bg-img{
+  position: absolute;
+  z-index: 0;
+  margin-top: 40px;
+  height: 120%;
 }
 .flag_waver{
 align-content: right;
 /*margin set to get the turtle at aprox where racers end */
 margin-left:70%;
-
+z-index: 1;
+position: absolute;
 }
+
 img{
   max-width:100%;
   max-height:100%;

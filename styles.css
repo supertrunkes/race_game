@@ -36,6 +36,7 @@ background: lightblue;
 }
 .flag_waver{
 align-content: right;
+/*margin set to get the turtle at aprox where racers end */
 margin-left:70%;
 
 }
